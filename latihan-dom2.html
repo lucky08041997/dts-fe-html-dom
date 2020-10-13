@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="pesan" onmouseover="perubahan(this)">Semoga kita semua sehat selalu dan sukses selalu</p>
+    <script>
+        function perubahan(id) {
+            if(id.style.fontSize == "16px")
+            {
+                id.style.fontSize = "30px";
+                id.style.color = "red";
+            }
+            else
+            {
+                id.style.fontSize = "16px";
+                id.style.color = "black"
+
+            }
+        }
+    </script>
+</body>
+</html>
